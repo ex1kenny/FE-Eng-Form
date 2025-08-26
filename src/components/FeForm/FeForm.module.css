@@ -1,0 +1,68 @@
+.fePage {
+  background: #f5f9ff;           
+  min-height: 100vh;
+  padding: 24px 16px;
+}
+
+.feWrap {
+  max-width: 880px;            
+  margin: 0 auto;
+}
+
+.feactions {
+  display: flex;              
+  gap: 12px;
+  margin-top: 12px;
+}
+
+
+.feBtn {
+  background: #fff;
+  border: 1px solid #1677ff;
+  color: #1677ff;
+  transition: all .2s ease;
+}
+.feBtn:hover {
+  background: #1677ff;
+  color: #fff;
+} 
+ 
+
+.hobbyError {
+  color: #ff4d4f;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.hobbyRow {           
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hobbyName {          
+  flex: 1 1 auto;
+  min-width: 220px;
+}
+
+.hobbyDuration {      
+  width: 140px;
+}
+
+
+
+.hobbyRemove {           
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+.hobbyRemove:hover {
+  background: #fff1f0;    
+  color: #cf1322;           
+} 
+
+.hobbyLabel {
+  display: block;  
+  margin-bottom: 10px;       
+}
