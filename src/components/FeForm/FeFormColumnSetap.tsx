@@ -137,7 +137,7 @@ useEffect(() => {
                     ]}
                     className={css.hobbyName}
                   >
-                    <Input placeholder="add please somehobby" />
+                    <Input placeholder="add please some hobby" />
                   </Form.Item>
 
                   <Form.Item
@@ -147,7 +147,7 @@ useEffect(() => {
                     className={css.hobbyDuration}
                   >
                     <InputNumber
-                      min={1} 
+                      min={1}
                       max={12}
                       addonAfter="month"
                       style={{ width: "100%" }}
